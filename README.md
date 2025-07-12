@@ -1,7 +1,6 @@
 # Python-Programs-STEP
      
   
-       c
        
    
     
