@@ -12,3 +12,5 @@ while l<r:
         l=l+1
 else:
     print("No Pair")
+
+ 
