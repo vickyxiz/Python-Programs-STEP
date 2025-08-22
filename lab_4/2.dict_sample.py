@@ -6,7 +6,7 @@ while True:
     subject_list = [s.strip().lower() for s in subjects.split(",")]
     if name in students:
         students[name].update(subject_list)
-    else:
+    else: 
         students[name] = set(subject_list)
 
     choice = input("Do you want to add another student? (yes/no): ").strip().lower()
@@ -51,3 +51,4 @@ print("\n--- All Students and Their Subjects ---")
 for name, subjects in students.items():
 
     print(f"{name}: {', '.join(subjects)}")
+
