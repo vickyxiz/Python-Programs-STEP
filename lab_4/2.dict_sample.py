@@ -11,7 +11,7 @@ while True:
 
     choice = input("Do you want to add another student? (yes/no): ").strip().lower()
     if choice != 'yes':
-        break
+        break 
 while True:
     update = input("\nDo you want to add more subjects to an existing student? (yes/no): ").strip().lower()
     if update != 'yes':
@@ -49,4 +49,5 @@ while True:
 
 print("\n--- All Students and Their Subjects ---")
 for name, subjects in students.items():
+
     print(f"{name}: {', '.join(subjects)}")
